@@ -1,6 +1,6 @@
 <?php
 $server = 'localhost';
-$dbname = 'authorization';
+$dbname = '02_authorization';
 $user = 'root';
 
 $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, "");

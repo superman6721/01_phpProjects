@@ -1,9 +1,9 @@
-<?php require_once("./helper/head.php") ?>
+<?php require_once("../helper/head.php") ?>
 <?php $strongPassStatus= false; ?>
 <div class="container">
     <div class=' d-flex flex-column align-items-center justify-content-center '>
 
-        <form action="" method='post' class='p-3 bg-gradient rounded shadow '>
+        <form action="" method='post' class='p-3 bg-gradient rounded shadow' style='width:350px'>
 
             <h3 class='text-center text-primary '>Register Form</h3>
 
@@ -124,4 +124,4 @@ if (isset($_POST['btn-submit'])) {
 
 
 ?>
-<?php require_once("./helper/foot.php") ?>
+<?php require_once("../helper/foot.php") ?>

@@ -11,7 +11,7 @@
 
 <div class="container">
     <div class='d-flex justify-content-center'>
-        <a href="../loginPage.php" class='btn btn-success text-white m-2'>Login</a>
-        <a href="../registerPage.php" class='btn btn-primary text-white m-2'>Register</a>
+        <a href="../public/loginPage.php" class='btn btn-success text-white m-2'>Login</a>
+        <a href="../public/registerPage.php" class='btn btn-primary text-white m-2'>Register</a>
     </div>
 </div>

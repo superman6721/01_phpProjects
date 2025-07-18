@@ -7,12 +7,14 @@ $userPhoneNo = $_POST['phNo'];
 $userAge = $_POST['age'];
 $userGender = $_POST['gender'];
 $userPassword = $_POST['password'];
+// $p = password_hash($userPassword, PASSWORD_BCRYPT);
+
 
 $query = 'insert into userInfo (name, phoneNo, age, password, gender ) values (?,?,?,?,?)';
 
 $res = $pdo->prepare($query);
 $res->execute([$userName, $userPhoneNo, $userAge, $userPassword, $userGender]);
-echo "insert success";
-header("Location:./loginPage.php");
+header("Location:./homePage.php");
+
 
 ?>
